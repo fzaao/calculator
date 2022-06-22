@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
+
+:root {
+    --primary-color: lightcoral;
+    --secundary-color: dimgrey;
+    --tertiary-color: gainsboro;
+    --button-color: rgb(211, 0, 63);
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 15px;
+    background: #f7f7f7;
+    /* box-shadow: 5px 5px 5px var(--tertiary-color); */
+    
+}
+
+.title {
+    background: var(--tertiary-color);
+    color: var(--secundary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    border-radius: 8px;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 5px solid rgb(158, 37, 77);
+    border-radius: 12px;
+}
+
+.formSelect {
+    background: white;
+    border-radius: 8px;
+    width: 180px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formSelect:focus {
+    border: 5px solid rgb(158, 37, 77);
+    border-radius: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    font-size: 16px;
+    border-radius: 8px;
+    background: var(--button-color);
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.formSubmit:focus {
+    border: solid rgb(255, 81, 0);
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
